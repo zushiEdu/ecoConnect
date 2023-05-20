@@ -1,0 +1,119 @@
+[
+  {
+    "name": "St. Jacobs Farmers' Market",
+    "description": "Two minutes south of the Village of St. Jacobs, explore the abundance of meats & cheeses, farm fresh produce, baked goods, international foods, artisans & crafters, quilts, home furnishings, and a spectacular flea market.",
+    "rating": "4.6",
+    "lat": "43.51090016118863",
+    "lon": "-80.55501540044096",
+    "link": "https://goo.gl/maps/noStQdqgwunampEq8?coh=178573&entry=tt",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMvODGIVtmequC5Dq3I3g5O3K_r8zwahZ7uzGHs=s680-w680-h510"
+  },
+  {
+    "name": "The Tilts Farm",
+    "description": "Since its establishment in 2007, the farm has been dedicated to providing a remarkable culinary experience through its offerings of humanely raised, antibiotic-free and hormone-free chickens, eggs, and pork. The farm takes pride in its commitment to a grass-based diet and genuine pasture-raising practices, allowing the animals to enjoy the freedom to roam, dig, and root as they please.",
+    "rating": "4.7",
+    "lat": "43.388403919329974",
+    "lon": "-80.43549670144003",
+    "link": "https://goo.gl/maps/DSbbPsBM3Qo9wTJ39?coh=178573&entry=tt",
+    "image": "https://scontent.fyyz1-2.fna.fbcdn.net/v/t39.30808-6/314337389_3393645164188217_1982214530336370924_n.jpg?stp=dst-jpg_p600x600&_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=4xZIMjOfmUEAX-IZUB7&_nc_ht=scontent.fyyz1-2.fna&oh=00_AfAx2S-lDrQQhFzONa5LR0vGkIeC9H4LPEoW93BA6QaHjw&oe=646E967A"
+  },
+  {
+    "name": "Barrie's Asparagus",
+    "description": "Barrie's Asparagus & Country Market is nestled in the heart of Waterloo Region.  We are the fourth generation producing high-quality foods on Cedardale Farm.",
+    "rating": "4.7",
+    "lat": "43.36022885999802",
+    "lon": "-80.42147891886012",
+    "link": "https://goo.gl/maps/cDfzZXKz12MxKN477?coh=178573&entry=tt",
+    "image": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.6435-9/203606310_4554113117966999_6250353850484439466_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=cvEyMstXkjEAX_-X8QP&_nc_ht=scontent.fyyz1-1.fna&oh=00_AfARRwAL6gkqD-mZGq1jwWnNvu517ee0O30Y5m27V8hkGg&oe=64907003"
+  },
+  {
+    "name": "Cambridge Farmers' Market",
+    "description": "Started around 1830, the Cambridge Farmers' Market is one of the oldest farmers' markets in Canada. Parking is available behind Cambridge City Hall.",
+    "rating": "4.5",
+    "lat": "43.35989259103447",
+    "lon": "-80.3133296986471",
+    "link": "https://goo.gl/maps/Mw7yQHyuChrY6vzHA?coh=178573&entry=tt",
+    "image": "https://files.explorewaterloo.ca/uploads/2018/04/galt-on-the-grand-farmers-market.jpg"
+  },
+  {
+    "name": "Kitchener Market",
+    "description": "The Kitchener Market is more than a building, it’s a community. And it’s been that way for over 150 years. We are proud to connect people, create experiences and build relationships. Stop by the Food Hall on the upper level of the Kitchener Market for delicious, home style breakfast and lunch options. There is a great, international variety of full meals, snacks, desserts, and fresh, locally roasted coffee. Dine indoors or grab some takeout. Some of our Food Hall vendors also offer catering and delivery.",
+    "rating": "4.6",
+    "lat": "43.448172996727955",
+    "lon": "-80.48400020210566",
+    "link": "https://goo.gl/maps/f85QHtLkF3U4MWyX8?coh=178573&entry=tt",
+    "image": "https://www.ulocal.co/app/uploads/2019/09/kitchener-farmers-market-imgd.jpg"
+  },
+  {
+    "name": "Gmach Gardens",
+    "description": "We grow a wide variety of produce on our family run farm located just 2 kilometers outside the Kitchener boundary, on Huron Road. In addition to the Kitchener Market, we began selling at our farm in 2017. In 2019, our online store was launched and we began offering a limited amount of produce grown by other local farmers. We farm using a combination of traditional and modern farming techniques.",
+    "rating": "5.0",
+    "lat": "43.37392341369486",
+    "lon": "-80.53864743740549",
+    "link": "https://goo.gl/maps/ExEbFXKhWUCK2YY59?coh=178573&entry=tt",
+    "image": "https://wilmotpost.ca/cmsb/uploads/gmach-farm.jpg"
+  },
+  {
+    "name": "Bailey's Local Foods",
+    "description": "Bailey’s Local Foods takes the hassle out of buying local with easy online ordering and a convenient pickup location or delivery. It is essentially an online farmers’ market where, unlike CSAs or box programs, you can pick and choose exactly what and how much you want to purchase from dozens of farmers and producers within a 100 mile radius of the Waterloo Region. As a year-round service, we offer weekly online ordering from May to October and Bi-Weekly online ordering from November to April.",
+    "rating": "4.5",
+    "lat": "43.46122079294248",
+    "lon": "-80.522155684246",
+    "link": "https://goo.gl/maps/jmzJ77YRSJZ1QxiKA?coh=178573&entry=tt",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipP7cgMfcSP-FHJ7SQ07hFdgLnoeCq9iBSwmuIxO=s680-w680-h510"
+  },
+  {
+    "name": "Mosborough Country Market",
+    "description": "They started Mosborough Country Market in 1999 as a small stand selling their homegrown sweet corn on their family farm. They continue to grow their own sweet corn and pumpkins to this day, but they have also expanded their offerings to include many other products. They collaborate with local farmers and neighbors to ensure that their customers have access to the freshest and most delicious products available anywhere.",
+    "rating": "4.6",
+    "lat": "43.517395687356995",
+    "lon": "-80.3222947281821",
+    "link": "https://goo.gl/maps/n2PqGu5iFUD4Zyt8A?coh=178573&entry=tt",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMux5ON1-t6vBzZoT9WlC5vMCUuhhitSeK1laEo=s680-w680-h510"
+  },
+  {
+    "name": "Garden of Puslinch Farm",
+    "description": "We offer a variety of fresh food, straight from the garden. You can find us at farmers markets, or at our own location!",
+    "rating": "4.8",
+    "lat": "43.45476771386597",
+    "lon": "-80.27060914626168",
+    "link": "https://goo.gl/maps/Zwgzgmo1VuXXdHzb6?coh=178573&entry=tt",
+    "image": "https://lh5.googleusercontent.com/p/AF1QipPWjmdhSxqhDms20KU4Ky35_tnpzMpp17nPTTA7=w408-h282-k-no"
+  },
+  {
+    "name": "Dedmandale Farms",
+    "description": "Grass Fed Beef. Registered Galloway cattle. Regenerative agriculture. Family Farm.",
+    "rating": "5.0",
+    "lat": "43.33329507552855",
+    "lon": "-80.5154140143975",
+    "link": "https://goo.gl/maps/vJH6ZPvQsQPdDfMB8?coh=178573&entry=tt",
+    "image": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t39.30808-6/341774327_1103299297727939_5227907960318996182_n.jpg?stp=dst-jpg_p480x480&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=nA2kVE1sXKQAX8a3qZ3&_nc_ht=scontent.fyyz1-1.fna&oh=00_AfDtNYBzvPOQfPVrq5LNnld8gIXnoyKfnpgl5Ex0k-nsVw&oe=646D6709"
+  },
+  {
+    "name": "Springridge Farm",
+    "description": "We live here. We farm here. We believe in growing and in making and baking with the freshest farm flavours. We believe in recipes that have stood the test of time and in finding delicious ways to preserve and serve each season in our bakery and farm shop. We also believe in family and in making memories on this farm. We raised our children here – feeding farm animals, playing outside. Old fashioned farm fun is what we’re known for. Step inside our nineteeth-century barn and see what we’ve made and found. Our incredible shop is brimming with fun finds, and our farm pantry shelves are positively packed with all of your farm favourites.",
+    "rating": "4.5",
+    "lat": "43.47870565814326",
+    "lon": "-79.90410347171121",
+    "link": "https://goo.gl/maps/34SmVt6ashXf81ME8?coh=178573&entry=tt",
+    "image": "https://www.springridgefarm.com/wp-content/uploads/2023/03/family-on-tractor-scaled-e1678122678252.jpg"
+  },
+  {
+    "name": "Diversity Farms",
+    "description": "We Produce Grass-Fed Beef And FREE-Range Eggs ... All Year Round. Seasonally we raise Free Range Meat Chickens and Turkeys, and occasionally some vegetables.",
+    "rating": "4.4",
+    "lat": "44.001129156693956",
+    "lon": "-79.38023313696218",
+    "link": "https://goo.gl/maps/oXnDAqer8k7LACs7A?coh=178573&entry=tt",
+    "image": "https://www.diversityfarms.ca/resources/MVC-246F.JPG.opt309x231o0%2C0s309x231.JPG"
+  },
+  {
+    "name": "Round The Bend Farm",
+    "description": "Harvesting lots of fresh vegetables and fruits from asparagus to zucchini. Growing happy turkeys too.",
+    "rating": "4.5",
+    "lat": "44.00204139558184",
+    "lon": "-79.5693887846928",
+    "link": "https://goo.gl/maps/g1tLWHLptWMcWeHx6?coh=178573&entry=tt",
+    "image": "https://scontent.fyyz1-1.fna.fbcdn.net/v/t39.30808-6/340032052_745828813861125_7231018210480609327_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=BT32aHrUicwAX9DPe_M&_nc_ht=scontent.fyyz1-1.fna&oh=00_AfACCI64mHuGLSg24H4B9AJwhFMN7-6uc7LY2HXRR5gdHQ&oe=646E7B49"
+  }
+]
