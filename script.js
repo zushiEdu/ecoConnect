@@ -1,8 +1,6 @@
 var userLat;
 var userLon;
 
-getLocation();
-
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(setPosition, function (error) { console.log("Critical Error"), { timout: 5000 } });
@@ -14,6 +12,8 @@ function getLocation() {
 function setPosition(position) {
     userLat = position.coords.latitude;
     userLon = position.coords.longitude;
+
+    createList();
 }
 
 function getDistanceInKilometers(lat1, lon1, lat2, lon2) {
@@ -42,66 +42,71 @@ function getDistanceInKilometers(lat1, lon1, lat2, lon2) {
     return distance;
 }
 
-fetch('locations.json')
-    .then(response => response.json())
-    .then(locations => {
-        const locationsContainer = document.getElementById('locations-container');
-        const totalLocations = document.getElementById('total-locations');
-        totalLocations.innerText = "There are " + locations.length + " families, businesses and organizations on our site!";
+function createList() {
+    console.log("Refreshed List")
+    fetch('locations.json')
+        .then(response => response.json())
+        .then(locations => {
+            const locationsContainer = document.getElementById('locations-container');
+            const totalLocations = document.getElementById('total-locations');
+            totalLocations.innerText = "There are " + locations.length + " families, businesses and organizations on our site!";
 
-        locations = locations.sort(
-            (p1, p2) => (getDistanceInKilometers(userLat, userLon, p1.lat, p1.lon) > getDistanceInKilometers(userLat, userLon, p2.lat, p2.lon)) ? 1 : (getDistanceInKilometers(userLat, userLon, p1.lat, p1.lon) < getDistanceInKilometers(userLat, userLon, p2.lat, p2.lon)) ? -1 : 0);
+            locationsContainer.innerHTML = null;
 
-        for (var i = 0; i < 50; i++) {
-            if (locations[i] != null) {
-                var location = locations[i];
+            locations = locations.sort(
+                (p1, p2) => (getDistanceInKilometers(userLat, userLon, p1.lat, p1.lon) > getDistanceInKilometers(userLat, userLon, p2.lat, p2.lon)) ? 1 : (getDistanceInKilometers(userLat, userLon, p1.lat, p1.lon) < getDistanceInKilometers(userLat, userLon, p2.lat, p2.lon)) ? -1 : 0);
 
-                const section = document.createElement('section');
+            for (var i = 0; i < 50; i++) {
+                if (locations[i] != null) {
+                    var location = locations[i];
 
-                section.id = location.name.replaceAll(" ", "_");
+                    const section = document.createElement('section');
 
-                const content = document.createElement('div');
+                    section.id = location.name.replaceAll(" ", "_");
 
-                const name = document.createElement('h2');
-                name.textContent = location.name + " - " + location.rating + "★";
-                content.appendChild(name);
+                    const content = document.createElement('div');
 
-                const textDiv = document.createElement('div');
-                textDiv.style = "display:flex;margin-bottom:1rem;";
+                    const name = document.createElement('h2');
+                    name.textContent = location.name + " - " + location.rating + "★";
+                    content.appendChild(name);
 
-                const description = document.createElement('p');
-                description.textContent = location.description;
-                description.style = "display:inline;";
-                textDiv.appendChild(description)
+                    const textDiv = document.createElement('div');
+                    textDiv.style = "display:flex;margin-bottom:1rem;";
 
-                const image = document.createElement('img');
-                image.src = location.image;
-                textDiv.appendChild(image);
+                    const description = document.createElement('p');
+                    description.textContent = location.description;
+                    description.style = "display:inline;";
+                    textDiv.appendChild(description)
 
-                content.appendChild(textDiv);
+                    const image = document.createElement('img');
+                    image.src = location.image;
+                    textDiv.appendChild(image);
 
-                const distance = document.createElement('p');
-                var distanceAway = getDistanceInKilometers(userLat, userLon, location.lat, location.lon);
-                distanceAway = Math.round(distanceAway * 10) / 10;
-                if (distanceAway > 0) {
-                    distance.textContent = distanceAway + "km away from you. | ";
-                } else {
-                    distance.textContent = "Please enable location services. | ";
+                    content.appendChild(textDiv);
+
+                    const distance = document.createElement('p');
+                    var distanceAway = getDistanceInKilometers(userLat, userLon, location.lat, location.lon);
+                    distanceAway = Math.round(distanceAway * 10) / 10;
+                    if (distanceAway > 0) {
+                        distance.textContent = distanceAway + "km away from you. | ";
+                    } else {
+                        distance.textContent = "Please enable location services. | ";
+                    }
+                    distance.style = "display:inline;"
+                    content.appendChild(distance);
+
+                    const link = document.createElement('a');
+                    link.href = location.link;
+                    link.textContent = "Google Maps Link";
+                    link.style = "display:inline;";
+                    link.target = "_blank";
+                    content.appendChild(link);
+
+                    section.appendChild(content);
+                    locationsContainer.appendChild(section);
                 }
-                distance.style = "display:inline;"
-                content.appendChild(distance);
-
-                const link = document.createElement('a');
-                link.href = location.link;
-                link.textContent = "Google Maps Link";
-                link.style = "display:inline;";
-                link.target = "_blank";
-                content.appendChild(link);
-
-                section.appendChild(content);
-                locationsContainer.appendChild(section);
             }
-        }
-    });
+        });
+}
 
 getLocation();
