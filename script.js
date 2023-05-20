@@ -5,7 +5,7 @@ getLocation();
 
 function getLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(setPosition);
+        navigator.geolocation.getCurrentPosition(setPosition, function (error) { console.log("Critical Error"), { timout: 5000 } });
     } else {
         console.log("GeoLocation Not Supported")
     }
